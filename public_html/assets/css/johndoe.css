@@ -11228,7 +11228,7 @@ p {
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 100%;
+  width: 400px;
   height: 100%;
   background: rgba(248, 92, 112, 0.8);
   display: -webkit-box;
@@ -11349,7 +11349,7 @@ p {
   }
 }
 
-.custom-map {
+.custom-back {
   height: 400px;
 }
 
@@ -11651,7 +11651,8 @@ pre .code {
   }
 }
 
-.contact .map {
+.contact .back {
+  background-color: #171a1d;
   position: absolute;
   left: 0;
   top: 0;
