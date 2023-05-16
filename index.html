@@ -34,8 +34,8 @@
                 <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
             </ul>  
             <div class="header-content">
-                <h4 class="header-subtitle" >Hello, I am</h4> <br>
-                <h1 class="header-title">Caleb Olele  </h1>
+                <h4 class="header-subtitle" >Hello, I am </h4> <br>
+                <h2 class="header-title text-primary"><span class="auto-input"></span></h2>
                 <h6 class="header-mono" >CEO  | Merit Graphics Design</h6>
                 <button class="btn btn-primary btn-rounded"><i class="ti-printer pr-2"></i>Print Resume</button>
             </div>
@@ -84,7 +84,7 @@
                 <span class="line mb-5"></span>
                 <h5 class="mb-3">A Web Designer | Graphic Designer | UI/UX Designer | Content creation | Trainer</h5>
                 <p class="mt-20">A highly skilled, creative designer with great passion for designs. I love interactions that lead to meaningful outcomes. And guess what? I take pride in </p>
-                <button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i href="">Download My CV</button>
+                <button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i href="public_html\assets\CALEB OTIENO CV.pdf">Download My CV</button>
             </div>
             <div class="col-lg-4 about-card">
                 <h3 class="font-weight-light">Personal Info</h3>
@@ -459,6 +459,14 @@
 
     <!-- JohnDoe js -->
     <script src="assets/js/johndoe.js"></script>
-
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var Typed= new Typed(".auto-input" ,{
+            strings:  ["Caleb Olele" , "A UI designer" , "Graphic Designer" , "Web developer" , "Content Creation"],
+            typeSpeed : 100,
+            backSpeed : 120,
+            loop : true
+        })
+    </script>
 </body>
 </html>
