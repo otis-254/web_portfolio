@@ -8,10 +8,13 @@
     <meta name="author" content="Devcrud">
     <title>Merit Media</title>
     <!-- font icons -->
+    <script src="https://kit.fontawesome.com/d5427b5ee7.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + JohnDoe main styles -->
     <link rel="stylesheet" href="assets/css/johndoe.css">
     <script src="index.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
     </script>
@@ -39,7 +42,8 @@
                 <h4 class="header-subtitle">Hello&#128075 I am </h4> <br>
                 <h4 class="header-title text-primary"><span class="auto-input"></span></h4>
                 <h6 class="header-mono">I Create things Tailored to suit your business needs | </h6>
-                <a href="mailto:officialmerit21@gmail.com" class="btn btn-primary btn-rounded"><i class="ti-headphone-alt pr-2" ></i>Contact Me</a>
+                <a href="mailto:officialmerit21@gmail.com" class="btn btn-primary btn-rounded"><i
+                        class="ti-headphone-alt pr-2"></i>Contact Me</a>
             </div>
         </div>
     </header>
@@ -88,9 +92,15 @@
                 <span class="line mb-5"></span>
                 <h5 class="mb-3">A Web Designer | Graphic Designer | UI/UX Designer | Content/ Article Writer | Trainer
                 </h5>
-                <p class="mt-20">A highly skilled, creative designer with great passion for designs. I love inspiring and getting inspired.</p>
-                <button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i
-                        href="public_html\assets\CALEB OTIENO CV.pdf">Download My CV</button>
+                <p class="mt-20">A highly skilled, creative designer with great passion for designs. I love inspiring
+                    and getting inspired.</p>
+                <!-- <button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i
+                        href="public_html\assets\CALEB OTIENO CV.pdf">Download My CV</button> -->
+
+                <a class="btn btn-outline-danger" href="public_html/assets/CALEB-OTIENO CV.pdf" download>
+                    <i class="fa-solid fa-down-to-bracket"></i> Download My CV
+                </a>
+
             </div>
             <div class="col-lg-4 about-card">
                 <h3 class="font-weight-light">Personal Info</h3>
@@ -102,13 +112,15 @@
                             362</a></li>
                 </ul>
                 <ul class="social-icons pt-2">
-                    <li class="social-item"><a class="social-link" href="https://www.facebook.com/profile.php?id=100084530301305" target="_blank"><i class="ti-facebook"
-                                aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="https://www.linkedin.com/company/83062476/admin/" target="_blank"><i class="ti-linkedin"
-                                aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link"
+                            href="https://www.facebook.com/profile.php?id=100084530301305" target="_blank"><i
+                                class="ti-facebook" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link"
+                            href="https://www.linkedin.com/company/83062476/admin/" target="_blank"><i
+                                class="ti-linkedin" aria-hidden="true"></i></a></li>
                     <li class="social-item"><a class="social-link" href="#"><i class="ti-twitter"
-                                    aria-hidden="true"></i></a></li>
-                     
+                                aria-hidden="true"></i></a></li>
+
                 </ul>
             </div>
             <div class="col-lg-4 about-card">
@@ -151,7 +163,7 @@
     <section class="section" id="services">
         <div class="container">
             <h2 class="mb-5 pb-4"><span class="text-danger">My</span> Services</h2>
-            <div class="row">
+            <div class="row" data-aos="fade-up" data-aos-duration="3000">
                 <div class="col-md-4 col-sm-6">
                     <div class="card mb-5">
                         <div class="card-header has-icon">
@@ -189,7 +201,8 @@
                         <div class="card-body px-4 py-3">
                             <h5 class="mb-3 card-title text-dark">Web Development</h5>
                             <P class="subtitle">Are you a startuper, SMB, an established or have an instituion and feel
-                                this was the ideal moment for <b>Going Digital?</b> The desire was prime! Let me help you satisfy the desire, and get 
+                                this was the ideal moment for <b>Going Digital?</b> The desire was prime! Let me help
+                                you satisfy the desire, and get
                                 your next website that will make it easier for your customers to reach you.</P>
                         </div>
                     </div>
@@ -226,8 +239,11 @@
                         </div>
                         <div class="card-body px-4 py-3">
                             <h5 class="mb-3 card-title text-dark">Trainings</h5>
-                            <P class="subtitle">I also offer virtual trainings on Graphic Design, Content writing, and Data Entry. You can <span class="text-primary">Register</span> with me to begin lessons!</P>
-                            <a class="btn bg-primary w-m text-white" href="https://wa.me/254714531574" target="_blank">Let's Go!</a>
+                            <P class="subtitle">I also offer virtual trainings on Graphic Design, Content writing, and
+                                Data Entry. You can <span class="text-primary">Register</span> with me to begin lessons!
+                            </P>
+                            <a class="btn bg-primary w-m text-white" href="https://wa.me/254714531574"
+                                target="_blank">Let's Go!</a>
                         </div>
                     </div>
                 </div>
@@ -237,12 +253,13 @@
 
 
 
-    <section class="section bg-dark py-5">
+    <section class="section bg-dark py-5" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
         <div class="container text-center">
             <h2 class="text-light mb-5 font-weight-normal">I'm available for Freelance, too! &#128519
             </h2>
             <a class="btn bg-primary w-lg mr-3" href="mailto:officialmerit21@gmail.com" target="_blank">Hire me</a>
-            <a class="btn bg-dark w-lg text-white" href="https://calendly.com/caleb_otis/30min" target="_blank">Book A Call</a>
+            <a class="btn bg-dark w-lg text-white" href="https://calendly.com/caleb_otis/30min" target="_blank">Book A
+                Call</a>
         </div>
     </section>
 
@@ -256,7 +273,7 @@
             <h1 class="mb-5"><span class="text-danger">My</span> Portfolio</h1>
             <section id="teachers">
 
-                <div class="row">
+                <div class="row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <div class="col-md-6 col-lg-3 text-center team mb-4">
                         <div class="team-item rounded overflow-hidden mb-2">
                             <div class="team-img position-relative hover-overlay">
@@ -358,10 +375,204 @@
 
 
 
+    <!-- clients Testimonials-->
+
+    <div class="container-lg">
+        <div class="row" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div class="col-sm-12">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <h2>Customer <b>Testimonials</b></h2>
+                    <!-- Carousel indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+
+                    </ol>
+                    <!-- Wrapper for carousel items -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="testimonial">
+                                        <p>A true artist! The designs brought our ideas to life with a perfect blend of
+                                            innovation and professionalism. Working with them was a delight, and the
+                                            results speak for themselves.</p>
+                                    </div>
+                                    <div class="media">
+                                        <img src="assets/imgs/Pic 1.jpg" class="mr-3" alt="">
+                                        <div class="media-body">
+                                            <div class="overview">
+                                                <div class="name"><b>Robert Felix</b></div>
+                                                <div class="details">CEO / Ferora Technologies</div>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="testimonial">
+                                        <p>Creative brilliance! Merit Graphics transformed my ideas into a visually
+                                            stunning business card. A testament to their design prowess. Highly
+                                            recommend!</p>
+                                    </div>
+                                    <div class="media">
+                                        <img src="assets/imgs/vin.jpg" class="mr-3" alt="">
+                                        <div class="media-body">
+                                            <div class="overview">
+                                                <div class="name"><b>Vincet Ochieng</b></div>
+                                                <div class="details">CEO / Vinnill Media</div>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="testimonial">
+                                        <p>Transformed our vision into captivating visuals! The graphic design expertise
+                                            demonstrated was outstanding. They took the time to understand our brand,
+                                            and it truly shows in the final designs.</p>
+                                    </div>
+                                    <div class="media">
+                                        <img src="assets/imgs/Pic 7.jpeg" class="mr-3" alt="">
+                                        <div class="media-body">
+                                            <div class="overview">
+                                                <div class="name"><b>Philip Okundi</b></div>
+                                                <div class="details">CEO / Blessed Hope Tech</div>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="testimonial">
+                                        <p>Unmatched creativity and versatility! From logos to marketing materials, the
+                                            graphic design services provided added a unique flair to our brand. A
+                                            pleasure to work with, delivering top-notch quality every time.</p>
+                                    </div>
+                                    <div class="media">
+                                        <img src="assets/imgs/viv .png" class="mr-3" alt="">
+                                        <div class="media-body">
+                                            <div class="overview">
+                                                <div class="name"><b>Victor Otieno</b></div>
+                                                <div class="details">CEO / Soko Dada</div>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="testimonial">
+                                        <p>Design excellence at its best! Thanks to Merit Graphics, our app's
+                                            UI/UX is not only visually stunning but also incredibly user-friendly. You
+                                            should consider working with them!</p>
+                                    </div>
+                                    <div class="media">
+                                        <img src="assets/imgs/jacob.png" class="mr-3" alt="">
+                                        <div class="media-body">
+                                            <div class="overview">
+                                                <div class="name"><b>Micah Jacob</b></div>
+                                                <div class="details">CEO / NEA Global</div>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="testimonial">
+                                        <p>Brand storytelling in visuals! They crafted a logo that tells our story at a
+                                            glance. The book cover design? A masterpiece that invites readers into the
+                                            narrative.</p>
+                                    </div>
+                                    <div class="media">
+                                        <div class="media-left d-flex mr-3">
+                                            <img src="assets/imgs/sam.jpeg" alt="">
+                                        </div>
+                                        <div class="media-body">
+                                            <div class="overview">
+                                                <div class="name"><b>Mr. Sam Mungai</b></div>
+                                                <div class="details">Math/ Physics Teacher / Nairobi School</div>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carousel controls -->
+                    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                        <i class="fa fa-chevron-left"></i>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                        <i class="fa fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of clients  -->
+
+
     <div class="section contact" id="contact">
         <div id="back" class="back"></div>
         <div class="container">
-            <div class="row">
+            <div class="row" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                 <div class="col-lg-8">
                     <div class="contact-form-card">
                         <h4 class="contact-title">How I workout Through A Project</h4>
@@ -371,7 +582,9 @@
                             </div>
                             <div class="col-8">
                                 <h6 class="d-inline text-primary">Researching<br>
-                                    <p>I carry out a conventional research about the project, that's after briefs have been released by client.
+                                    <p>I carry out a conventional research about the project, that's after briefs
+                                        have
+                                        been released by client.
                                         This is the most important step in the entire project process.</p>
                             </div>
                         </div>
@@ -381,7 +594,9 @@
                             </div>
                             <div class="col-8">
                                 <h6 class="d-inline text-primary">Execution<br>
-                                    <p>This is where everything ever put down on paper is brought into realization to make a tangible piece of work.</p>
+                                    <p>This is where everything ever put down on paper is brought into realization
+                                        to
+                                        make a tangible piece of work.</p>
                             </div>
                         </div>
                         <div class="row mb-2">
@@ -390,7 +605,8 @@
                             </div>
                             <div class="col-8">
                                 <h6 class="d-inline text-primary">Testing<br>
-                                    <p>I then highten the project to its testing level so to get feedbacks on its functionality. This is moreso on websites Development projects.</p>
+                                    <p>I then highten the project to its testing level so to get feedbacks on its
+                                        functionality. This is moreso on websites Development projects.</p>
                             </div>
                         </div>
                         <div class="row mb-2">
@@ -399,7 +615,8 @@
                             </div>
                             <div class="col-lg-8">
                                 <h6 class="d-inline text-primary">Production<br>
-                                    <p>I send the finished work to the client through the agreed channel for use.</p>
+                                    <p>I send the finished work to the client through the agreed channel for use.
+                                    </p>
                             </div>
                         </div>
                     </div>
@@ -412,7 +629,8 @@
                                 <i class="ti-mobile icon-md"></i>
                             </div>
                             <div class="col-10 ">
-                                <h6 class="d-inline">Phone : <br> <span class="text-muted">+ (254) 741-795 362</span>
+                                <h6 class="d-inline">Phone : <br> <span class="text-muted">+ (254) 741-795
+                                        362</span>
                                 </h6>
                             </div>
                         </div>
@@ -421,7 +639,8 @@
                                 <i class="ti-map-alt icon-md"></i>
                             </div>
                             <div class="col-10">
-                                <h6 class="d-inline">Address :<br> <span class="text-muted">Nairobi, Kenya.</span></h6>
+                                <h6 class="d-inline">Address :<br> <span class="text-muted">Nairobi, Kenya.</span>
+                                </h6>
                             </div>
                         </div>
                         <div class="row mb-2">
@@ -429,8 +648,9 @@
                                 <i class="ti-envelope icon-md"></i>
                             </div>
                             <div class="col-10">
-                                <h6 class="d-inline">Email :<br> <span
-                                        class="text-muted" href="mailto:officialmerit21@gmail.com">officialmerit21@gmail.com</span></h6>
+                                <h6 class="d-inline">Email :<br> <span class="text-muted"
+                                        href="mailto:officialmerit21@gmail.com">officialmerit21@gmail.com</span>
+                                </h6>
                             </div>
                         </div>
                         <ul class="social-icons pt-4">
@@ -447,13 +667,16 @@
                         </ul>
                         <hr>
                         <P>You have any word for me, or just wanna say HI?</P>
-                        <a class="btn bg-primary shadow-lg w-lg text-white" href="https://wa.me/254714531574" target="_blank">Let's Chat Up!</a>
+                        <a class="btn bg-primary shadow-lg w-lg text-white" href="https://wa.me/254714531574"
+                            target="_blank">Let's Chat Up!</a>
                     </div>
                 </div>
             </div>
 
         </div>
     </div>
+
+    <button class="top"><i class="fa-solid fa-angles-up"></i></button>
     <footer class="footer py-3">
         <div class="container">
             <p class="small mb-0 text-light">
@@ -461,6 +684,7 @@
             </p>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
     <!-- core  -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
@@ -487,6 +711,7 @@
             loop: true
         })
     </script>
+
 </body>
 
 </html>
